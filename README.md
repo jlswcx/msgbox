@@ -1,6 +1,8 @@
 # msgbox
 
-基于 Bootstrap4 的模态对话框插件
+基于 Bootstrap4 的模态框对话框插件
+
+<a href="https://www.tianlunvip.com/demo/msgbox.html" target="_blank">进入演示页面</a>
 
 ### 引用
 
@@ -34,7 +36,7 @@ msgbox(message, options, callback)
 
 **callback**：回调函数，接收一个参数 参数值为 buttons.value 区别不同按钮事件
 
-### 示例：<a href="https://www.tianlunvip.com/demo/msgbox.html" target="_blank">进入演示页面</a>
+### 示例：
 
 #### **1.Exp**
 
