@@ -25,9 +25,9 @@ msgbox(message, options, callback)
 		animation  	: true,			// 动画显示效果
 		center 		: true,			// 弹出位置在中间
 		buttons		: [
-							{type: "button", value: "确定", style : 'primary'},
-							{type: "button", value: "取消", style : 'secondary'},
-						],
+				{type: "button", value: "确定", style : 'primary'},
+				{type: "button", value: "取消", style : 'secondary'},
+				],
 	    style  		: 'info',		// 消息框风格样式
 	    remote 		: ''			// 远程数据
 	};
@@ -59,10 +59,10 @@ msgbox("我是一个提示框"，"主席发来贺电！");
 ```
 msgbox("我是一个提示框",{ 
 	buttons: [
-				{type: "button", value: "确定", style : 'primary'},
-				{type: "button", value: "取消", style : 'secondary'},
-				{type: "button", value: "终止", style : 'danger'},
-			],
+		{type: "button", value: "确定", style : 'primary'},
+		{type: "button", value: "取消", style : 'secondary'},
+		{type: "button", value: "终止", style : 'danger'},
+		],
 	}
 );
 ```
@@ -74,10 +74,10 @@ msgbox("我是一个提示框",{
 ```
 msgbox("我是一个提示框",{ 
 	buttons: [
-				{type: "button", value: "确定", style : 'primary'},
-				{type: "button", value: "取消", style : 'secondary'},
-				{type: "button", value: "终止", style : 'danger'},
-			],
+		{type: "button", value: "确定", style : 'primary'},
+		{type: "button", value: "取消", style : 'secondary'},
+		{type: "button", value: "终止", style : 'danger'},
+		],
 	},
 	function(text){
 		if(text === "确定"){
@@ -98,14 +98,14 @@ msgbox("我是一个提示框",{
 ```
 msgbox("我是一个提示框",{
 	inputs  : [
-      			{type: "text",     label: "用户名:", value: "George"},
-      			{type: "password", label: "密码:"}
-    ],
+      		{type: "text",     label: "用户名:", value: "George"},
+      		{type: "password", label: "密码:"}
+    		],
 	buttons : [
-				{type: "button", value: "确定", style : 'primary'},
-				{type: "button", value: "取消", style : 'secondary'},
-				{type: "button", value: "终止", style : 'danger'},
-			],
+		{type: "button", value: "确定", style : 'primary'},
+		{type: "button", value: "取消", style : 'secondary'},
+		{type: "button", value: "终止", style : 'danger'},
+		],
 	},
 	function(text){
 		if(text === "确定"){
@@ -126,13 +126,13 @@ msgbox("我是一个提示框",{
 ```
 msgbox("我是一个提示框",{
 	inputs  : [
-      			{type: "text",     label: "用户名:", value: "George"},
-      			{type: "password", label: "密码:"}
-    ],
+      		{type: "text",     label: "用户名:", value: "George"},
+      		{type: "password", label: "密码:"}
+    		],
 	buttons : [
-				{type: "button", value: "确定", style : 'primary'},
-				{type: "button", value: "取消", style : 'secondary'},
-			],
+		{type: "button", value: "确定", style : 'primary'},
+		{type: "button", value: "取消", style : 'secondary'},
+		],
 	},
 	function(text, value1, value2){
 		if(text === "确定"){
