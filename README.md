@@ -12,7 +12,7 @@
 
 ### 用法：
 
-```
+```javascript
 msgbox(message, options, callback)
 ```
 
@@ -42,7 +42,7 @@ msgbox(message, options, callback)
 
 **简单的弹出**
 
-```
+```javascript
 msgbox("我是一个提示框");
 ```
 
@@ -58,7 +58,7 @@ msgbox("我是一个提示框"，"主席发来贺电！");
 
 **修改添加按钮**
 
-```
+```javascript
 msgbox("我是一个提示框",{ 
 	buttons: [
 		{type: "button", value: "确定", style : 'primary'},
@@ -73,7 +73,7 @@ msgbox("我是一个提示框",{
 
 **使用回调函数**
 
-```
+```javascript
 msgbox("我是一个提示框",{ 
 	buttons: [
 		{type: "button", value: "确定", style : 'primary'},
@@ -97,7 +97,7 @@ msgbox("我是一个提示框",{
 
 **添加表单输入**
 
-```
+```javascript
 msgbox("我是一个提示框",{
 	inputs  : [
       		{type: "text",     label: "用户名:", value: "George"},
@@ -125,7 +125,7 @@ msgbox("我是一个提示框",{
 
 **获取表单数据**
 
-```
+```javascript
 msgbox("我是一个提示框",{
 	inputs  : [
       		{type: "text",     label: "用户名:", value: "George"},
@@ -147,7 +147,8 @@ msgbox("我是一个提示框",{
 ```
 
 > 如果要获取`N`个表单的值，则只需要在回调函数中添加`N`个参数即可
-```
+
+```javascript
 function(text, value1, value2, value3, ... , N ){
 	if(text === "确定"){
 		msgbox("输入数据<br>第一个表单值：" + value1 + "<br>第二个表单值：" + value2);
@@ -159,7 +160,7 @@ function(text, value1, value2, value3, ... , N ){
 
 **加载远程数据**
 
-```
+```javascript
 msgbox("",{
 	buttons : null,		// 删除默认按钮
 	remote : 'https://www.tianlunvip.com/demo/remote.html'
