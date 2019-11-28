@@ -1,6 +1,6 @@
 # msgbox
 
-基于 Bootstrap4 的模态框(对话框)插件
+基于 Bootstrap4 的模态对话框插件
 
 ### 引用
 
